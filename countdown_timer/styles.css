@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width:950px) {
+    .backgroundDiv {
+        min-height: 100vh;
+        background-color: rgb(0, 0, 85);
+        color: aliceblue;
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
+
+    h1 {
+        text-align: center;
+
+    }
+
+    .countdown-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .big-text {
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .backgroundDiv {
+        background-color: brown;
+    }
+
+}
+
+body {
+    background-image: url("https://images.unsplash.com/37/tEREUy1vSfuSu8LzTop3_IMG_2538.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+
+
+
+h1 {
+    font-size: 4rem;
+    margin-top: -10rem;
+    margin-right: 5rem;
+    font-weight: bolder;
+    margin-top: 5rem;
+    text-align: right;
+
+}
+
+h2 span {
+    font-size: 3rem;
+    margin-top: -10rem;
+    margin-right: 5rem;
+    font-weight: bolder;
+    margin-top: 5rem;
+    text-align: right;
+    font-style: italic;
+    float: right;
+
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: right;
+
+}
+
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+
+}
+
+
+
+.countdown-el span {
+    font-size: 1.3rem;
+
+}
